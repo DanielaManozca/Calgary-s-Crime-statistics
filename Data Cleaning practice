@@ -1,0 +1,33 @@
+import pandas as pd
+
+# Load the data (change the path as needed)
+data = pd.read_csv('https://data.calgary.ca/stories/s/About/mgd4-4snb')
+
+# Display the first few rows
+print(data.head())
+
+# Display the summary of the dataset
+print(data.describe())
+
+# Check for any missing data
+print(data.isnull().sum())
+
+# Check column names and types
+print(data.columns)
+
+# Drop missing values (or fill if necessary)
+data_cleaned = data.dropna()
+
+# Alternatively, you can fill missing values with median or mode
+# data.fillna(data.median(), inplace=True)  # for numerical columns
+# Find the most common crime type
+most_common_crime = data_cleaned['Crime Type'].value_counts().idxmax()
+most_common_crime_count = data_cleaned['Crime Type'].value_counts().max()
+
+print(f"The most common crime in Calgary is: {most_common_crime} with {most_common_crime_count} occurrences.")
+
+# Find the community most affected by crime
+community_most_affected = data_cleaned['Community'].value_counts().idxmax()
+community_most_affected_count = data_cleaned['Community'].value_counts().max()
+
+print(f"The community most affected by crime is: {community_most_affected} with {community_most_affected_count} occurrences.")

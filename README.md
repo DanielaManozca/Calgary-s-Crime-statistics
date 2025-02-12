@@ -20,11 +20,11 @@ Analysis: Drawing conclusions about the prevalence of different crime types and 
 
 The primary datasets used in this project are:
 
-# Crime Data:
+### Crime Data:
 
 Contains information about various types of crimes, including violent crimes, property crimes, theft, and robbery in Calgary.
 
-# Disorder Data:
+### Disorder Data:
 
 Contains information on social disturbances such as public disturbances, disorderly conduct, and similar events across Calgary communities.
 
@@ -33,8 +33,8 @@ Both datasets were merged and analyzed based on the community, year, and month.
 ## Data Sources
 
 
-# Crime Data: Available from Calgary’s public crime reporting datasets.
-# Disorder Data: Sourced from publicly available disorder event data.
+### Crime Data: Available from Calgary’s public crime reporting datasets.
+### Disorder Data: Sourced from publicly available disorder event data.
 
 
 ## Steps and Methodology
@@ -62,10 +62,10 @@ Scatter Plots: For comparing relationships between crime and disorder events acr
 4. Analysis and Insights
 The visualizations provided insight into crime trends over the years, helping answer questions like:
 
-## What is the most common crime in Calgary?
-## Which community is most affected by crime?
-## How have crime rates evolved over the last five years?
-## Are any crime categories rapidly increasing?
+### What is the most common crime in Calgary?
+### Which community is most affected by crime?
+### How have crime rates evolved over the last five years?
+### Are any crime categories rapidly increasing?
 
 ## Installation
 

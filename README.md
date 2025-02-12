@@ -1,34 +1,34 @@
-#Calgary Crime Statistics
+# Calgary Crime Statistics
 
 This repository contains an in-depth analysis of crime statistics in Calgary, using publicly available crime and disorder data. The goal of this project is to explore crime rates, trends, and patterns over the last few years to provide insights into crime statistics within Calgary. The project includes visualizations for various crime categories, including violent crime, property crime, robbery, theft, and total crime incidents.
 
-##Project Overview
+## Project Overview
 This project aims to analyze and visualize crime data from Calgary to help users understand trends in criminal activity across different communities. The analysis includes:
 
-##Data Preprocessing: 
+## Data Preprocessing: 
 
 Merging crime and disorder datasets.
 Aggregating Data: Grouping data by year and month to sum the crime and disorder counts.
 
-##Visualization: 
+## Visualization: 
 Creating line plots and scatter plots for various crime categories to observe trends and patterns over time.
 Analysis: Drawing conclusions about the prevalence of different crime types and their potential correlations with social unrest.
 
-##Datasets
+## Datasets
 
 The primary datasets used in this project are:
 
-###Crime Data: Contains information about various types of crimes, including violent crimes, property crimes, theft, and robbery in Calgary.
+### Crime Data: Contains information about various types of crimes, including violent crimes, property crimes, theft, and robbery in Calgary.
 ###Disorder Data: Contains information on social disturbances such as public disturbances, disorderly conduct, and similar events across Calgary communities.
 Both datasets were merged and analyzed based on the community, year, and month.
 
-###Data Sources
+### Data Sources
 
-Crime Data: Available from Calgary’s public crime reporting datasets. Data can be accessed here: Open Calgary Crime Data
+Crime Data: Available from Calgary’s public crime reporting datasets. Data can be accessed here: [https://data.calgary.ca/stories/s/Open-Calgary-Terms-of-Use/u45n-7awa](https://data.calgary.ca/stories/s/Open-Calgary-Terms-of-Use/u45n-7awa)
 Disorder Data: Sourced from publicly available disorder event data.
 
 
-##Steps and Methodology
+## Steps and Methodology
 1. Data Preprocessing
 The raw crime and disorder datasets were first cleaned and formatted for analysis. This involved:
 
@@ -49,15 +49,15 @@ Scatter Plots: For comparing relationships between crime and disorder events acr
 4. Analysis and Insights
 The visualizations provided insight into crime trends over the years, helping answer questions like:
 
-###What is the most common crime in Calgary?
-###Which community is most affected by crime?
-###How have crime rates evolved over the last five years?
-###Are any crime categories rapidly increasing?
+### What is the most common crime in Calgary?
+### Which community is most affected by crime?
+### How have crime rates evolved over the last five years?
+### Are any crime categories rapidly increasing?
 
-##Installation
+## Installation
 To run the code and replicate the analysis, follow these steps:
 
-###Requirements
+### Requirements
 
 Python 3.x
 Pandas
@@ -65,7 +65,7 @@ Matplotlib
 Seaborn
 Numpy
 
-##Conclusion
+## Conclusion
 
 Through this project, we have gained insights into how crime events and social disorder correlate over time in Calgary. The visualizations allow us to track crime trends and investigate how these trends evolve, potentially aiding policymakers, law enforcement, and community leaders in making data-driven decisions
 

@@ -1,4 +1,4 @@
-###Calgary Crime Statistics
+# Calgary-s-Crime-statistics
 
 
 This repository contains an in-depth analysis of crime and social disorder trends in Calgary, using publicly available crime data. The goal is to explore crime rates, trends, and patterns over the last few years and understand their correlation with social disorder events in the city. The project includes visualizations for various crime categories, including violent crime, property crime, robbery, theft, and total crime incidents.

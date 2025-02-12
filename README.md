@@ -18,13 +18,14 @@ Analysis: Drawing conclusions about the prevalence of different crime types and 
 
 The primary datasets used in this project are:
 
-### Crime Data: Contains information about various types of crimes, including violent crimes, property crimes, theft, and robbery in Calgary.
-###Disorder Data: Contains information on social disturbances such as public disturbances, disorderly conduct, and similar events across Calgary communities.
+Crime Data: Contains information about various types of crimes, including violent crimes, property crimes, theft, and robbery in Calgary.
+Disorder Data: Contains information on social disturbances such as public disturbances, disorderly conduct, and similar events across Calgary communities.
 Both datasets were merged and analyzed based on the community, year, and month.
 
 ### Data Sources
 
 Crime Data: Available from Calgary’s public crime reporting datasets. Data can be accessed here: [https://data.calgary.ca/stories/s/Open-Calgary-Terms-of-Use/u45n-7awa](https://data.calgary.ca/stories/s/Open-Calgary-Terms-of-Use/u45n-7awa)
+
 Disorder Data: Sourced from publicly available disorder event data.
 
 

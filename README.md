@@ -51,8 +51,11 @@ Scatter Plots: For comparing relationships between crime and disorder events acr
 
 
  What is the most common crime in Calgary?
+ 
  Which community is most affected by crime?
+ 
  How have crime rates evolved over the last five years?
+ 
  Are any crime categories rapidly increasing?
 
 ## Installation

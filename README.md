@@ -47,13 +47,13 @@ Line Plots: To track crime counts and disorder event counts over time.
 Dual-Axis Line Plots: To compare crime events with disorder events on the same graph using two y-axes for clear comparison.
 Scatter Plots: For comparing relationships between crime and disorder events across different communities.
 
-4. Analysis and Insights
-The visualizations provided insight into crime trends over the years, helping answer questions like:
+## 4. Guiding Questions
 
-### What is the most common crime in Calgary?
-### Which community is most affected by crime?
-### How have crime rates evolved over the last five years?
-### Are any crime categories rapidly increasing?
+
+ What is the most common crime in Calgary?
+ Which community is most affected by crime?
+ How have crime rates evolved over the last five years?
+ Are any crime categories rapidly increasing?
 
 ## Installation
 To run the code and replicate the analysis, follow these steps:
